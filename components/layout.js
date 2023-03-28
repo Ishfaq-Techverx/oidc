@@ -5,7 +5,8 @@ const configuration = {
   client_id: 'Product_Swagger',
   redirect_uri: 'http://localhost:3000/home',
   silent_redirect_uri: 'http://localhost:3000/home', // Optional activate silent-signin that use cookies between OIDC server and client javascript to restore the session
-  scope: 'Product',
+  // scope: 'Product',
+  scope: 'openid profile email api offline_access',
   // state:
   // 'V2VkIE1hciAyOSAyMDIzIDAzOjIxOjI0IEdNVCswNTAwIChQYWtpc3RhbiBTdGFuZGFyZCBUaW1lKQ',
   authority: 'https://sso.preview.fridaypos.com',
