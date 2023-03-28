@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "ssl": "local-ssl-proxy --source 3000 --target 3001 --key ./key.pem --cert ./cert.pem",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@axa-fr/react-oidc": "^6.16.8-alpha1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
