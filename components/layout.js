@@ -9,8 +9,9 @@ const configuration = {
   scope: 'openid profile email api offline_access',
   // state:
   // 'V2VkIE1hciAyOSAyMDIzIDAzOjIxOjI0IEdNVCswNTAwIChQYWtpc3RhbiBTdGFuZGFyZCBUaW1lKQ',
-  authority: 'https://sso.preview.fridaypos.com',
-  // 'https://sso.preview.fridaypos.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3DProduct_Swagger%26redirect_uri%3Dhttps%253A%252F%252Fproduct.preview.fridaypos.com%252Fswagger%252Foauth2-redirect.html%26scope%3DProduct%26state%3DV2VkIE1hciAyOSAyMDIzIDAzOjIxOjI0IEdNVCswNTAwIChQYWtpc3RhbiBTdGFuZGFyZCBUaW1lKQ%253D%253D',
+  // authority: 'https://sso.preview.fridaypos.com',
+  authority:
+    'https://sso.preview.fridaypos.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3DProduct_Swagger%26redirect_uri%3Dhttps%253A%252F%252Fproduct.preview.fridaypos.com%252Fswagger%252Foauth2-redirect.html%26scope%3DProduct%26state%3DV2VkIE1hciAyOSAyMDIzIDAzOjIxOjI0IEdNVCswNTAwIChQYWtpc3RhbiBTdGFuZGFyZCBUaW1lKQ%253D%253D',
 
   // 'https://sso.preview.fridaypos.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3DProduct_Swagger%26redirect_uri%3Dhttps%253A%252F%252Fproduct.preview.fridaypos.com%252Fswagger%252Foauth2-redirect.html%26scope%3DProduct%26state%3DV2VkIE1hciAyOSAyMDIzIDAzOjIxOjI0IEdNVCswNTAwIChQYWtpc3RhbiBTdGFuZGFyZCBUaW1lKQ%253D%253D',
   // authority: 'https://sso.preview.fridaypos.com',
